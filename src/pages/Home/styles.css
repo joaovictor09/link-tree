@@ -1,0 +1,46 @@
+.container{
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .user{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.container .user img{
+  width: 200px;
+  padding: 5px;
+  border-radius: 100%;
+  border: 2px #BB99DD solid;
+}
+
+.container .links{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container .social-medias{
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 600px)
+{
+  .container .links
+   {
+    width: 75%;
+   }
+}
